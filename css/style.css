@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Nino;
+    src: url('../fonts/bpg_nino_mtavruli_bold.ttf');
+}
+a{
+    text-decoration: none;
+}
+
+.sub-nav{
+    z-index: 1;
+    background-color: #333632e3;
+    border-bottom: 1px solid #404040;
+}
+.menu a{
+    font-family: Nino;
+    font-size: 15px;
+    color: #fff;
+    line-height: initial;
+    display: inline-block;
+    padding: 14px 26px 10px;
+}
+.lang a{
+    color: #fff;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.nav-link{
+    font-family: Nino;
+    font-size: 17px;
+    color: #6b6b6b;
+}
+.nav-link img{
+    margin-right: 14px;
+}
+.nav-item:first-child{
+    position: relative;
+    bottom: 8px;
+    margin-right: 5px;
+}
+.navbar{
+    z-index: 1;
+    top: 42px;
+}
+.carousel{
+    width: 100%;
+    max-width: 100%;
+    height: 725px;
+}
+.carousel-item img{
+    height: 725px;
+}
