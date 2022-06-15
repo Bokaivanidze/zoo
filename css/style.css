@@ -1,7 +1,5 @@
-@font-face {
-    font-family: Nino;
-    src: url('../fonts/bpg_nino_mtavruli_bold.ttf');
-}
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
+
 a{
     text-decoration: none;
 }
@@ -12,21 +10,30 @@ a{
     border-bottom: 1px solid #404040;
 }
 .menu a{
-    font-family: Nino;
+    font-family: "BPG Nino Mtavruli", sans-serif;
     font-size: 15px;
     color: #fff;
     line-height: initial;
     display: inline-block;
-    padding: 14px 26px 10px;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    padding-right: 19px;
 }
 .lang a{
     color: #fff;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    line-height: initial;
+    display: inline-block;
+    padding-top: 12px;
+    padding-bottom: 8px;
 }
 .dropdown-toggle::after {
     display: none;
 }
 .nav-link{
-    font-family: Nino;
+    font-family: "BPG Nino Mtavruli", sans-serif;
     font-size: 17px;
     color: #6b6b6b;
 }
@@ -35,18 +42,31 @@ a{
 }
 .nav-item:first-child{
     position: relative;
-    bottom: 8px;
+    bottom: 3px;
     margin-right: 5px;
+}
+.dzagli{
+    position: relative;
+    bottom: 8px;
+    margin-right: 1px;
+}
+.logo{
+    padding-top: 4px; 
+}
+.nav-item{
+    padding-top: 4px; 
 }
 .navbar{
     z-index: 1;
-    top: 42px;
+    top: 36px;
 }
-.carousel{
-    width: 100%;
-    max-width: 100%;
-    height: 725px;
-}
-.carousel-item img{
-    height: 725px;
+
+
+
+@media (min-width: 1400px){
+
+
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1100px;
+    }
 }
